@@ -1,5 +1,6 @@
 2011-06-10 Daniel Alder <daniel.alder@ymail.com>
 
+	* Added: Content wizard for 'Clickable Box'
 	* Changed: 'Clickable Box' is now a separate CType with Rendering from textpic incl. additional link field
 
 2011-04-16 Daniel Alder  <daniel.alder@ymail.com>

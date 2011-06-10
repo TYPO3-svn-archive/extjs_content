@@ -103,13 +103,14 @@ tx_extjscontent_addPalette('image', $pallette, 'tx_extjscontent_palette1');
 tx_extjscontent_addPalette('textpic', $pallette, 'tx_extjscontent_palette1');
 
 // Add New CType -> Copy From TextWithImage
+
+$GLOBALS['TCA']['tt_content']['types'][$_EXTKEY . '_pi1']['showitem'] = $GLOBALS['TCA']['tt_content']['types']['textpic']['showitem'];
+
 t3lib_extMgm::addPlugin(array(
     'LLL:EXT:extjs_content/locallang_db.xml:tt_content.CType',
     $_EXTKEY . '_pi1',
     t3lib_extMgm::extRelPath($_EXTKEY) . 'ext_icon.gif'
 ),'CType');
-
-$GLOBALS['TCA']['tt_content']['types']['extjs_content_pi1']['showitem'] = $GLOBALS['TCA']['tt_content']['types']['textpic']['showitem'];
 
 // Remove Unused Fields
 
