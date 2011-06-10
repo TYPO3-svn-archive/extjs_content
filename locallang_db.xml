@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'extjs_content'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.tx_extjscontent_palette1">Extjs Effects</label>
+			<label index="tt_content.tx_extjscontent_mode">Image Mode</label>
+			<label index="tt_content.tx_extjscontent_mode.I.0">Normal</label>
+			<label index="tt_content.tx_extjscontent_mode.I.1">Static</label>
+			<label index="tt_content.tx_extjscontent_mode.I.2">Slide</label>
+			<label index="tt_content.tx_extjscontent_selector">Selector</label>
+			<label index="tt_content.tx_extjscontent_selector.I.0">Disable</label>
+			<label index="tt_content.tx_extjscontent_selector.I.1">Numbers</label>
+			<label index="tt_content.tx_extjscontent_palette2">Extjs Effects - Options</label>
+			<label index="tt_content.tx_extjscontent_interval">Interval</label>
+			<label index="tt_content.tx_extjscontent_duration">Duration</label>
+			<label index="tt_content.tx_extjscontent_lightbox">Lightbox</label>
+			<label index="tt_content.tx_extjscontent_description">Description</label>
+			<label index="tt_content.tx_extjscontent_link">Link to</label>
+			<label index="tt_content.CType">Clickable Box</label>
+		</languageKey>
+	</data>
+</T3locallang>

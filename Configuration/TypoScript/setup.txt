@@ -1,0 +1,16 @@
+tt_content.image.20.1.imageLinkWrap {
+
+	JSwindow {
+		override = 0
+		override.if.isTrue.field = tx_extjscontent_lightbox
+	}
+
+	directImageLink {
+		override = 1
+		override.if.isTrue.field = tx_extjscontent_lightbox
+	}
+
+}
+
+### CType - Copy textpic
+tt_content.extjs_content_pi1 =< tt_content.textpic
